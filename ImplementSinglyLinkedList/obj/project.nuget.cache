@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z6oRiynehutvj9cgSeJ10tRs/D/nDp6V0do0QPvN2497q4NdUxgD5d4oDLadhVYz5pvX+ef90YrBZ3y1I5YgiQ==",
+  "success": true,
+  "projectFilePath": "E:\\Problem Solving\\ImplementSinglyLinkedList\\ImplementSinglyLinkedList\\ImplementSinglyLinkedList.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rakib\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}

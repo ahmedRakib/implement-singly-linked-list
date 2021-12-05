@@ -1,0 +1,13 @@
+E:\Problem Solving\ImplementSinglyLinkedList\ImplementSinglyLinkedList\bin\Debug\netcoreapp3.1\ImplementSinglyLinkedList.exe
+E:\Problem Solving\ImplementSinglyLinkedList\ImplementSinglyLinkedList\bin\Debug\netcoreapp3.1\ImplementSinglyLinkedList.deps.json
+E:\Problem Solving\ImplementSinglyLinkedList\ImplementSinglyLinkedList\bin\Debug\netcoreapp3.1\ImplementSinglyLinkedList.runtimeconfig.json
+E:\Problem Solving\ImplementSinglyLinkedList\ImplementSinglyLinkedList\bin\Debug\netcoreapp3.1\ImplementSinglyLinkedList.runtimeconfig.dev.json
+E:\Problem Solving\ImplementSinglyLinkedList\ImplementSinglyLinkedList\bin\Debug\netcoreapp3.1\ImplementSinglyLinkedList.dll
+E:\Problem Solving\ImplementSinglyLinkedList\ImplementSinglyLinkedList\bin\Debug\netcoreapp3.1\ImplementSinglyLinkedList.pdb
+E:\Problem Solving\ImplementSinglyLinkedList\ImplementSinglyLinkedList\obj\Debug\netcoreapp3.1\ImplementSinglyLinkedList.csprojAssemblyReference.cache
+E:\Problem Solving\ImplementSinglyLinkedList\ImplementSinglyLinkedList\obj\Debug\netcoreapp3.1\ImplementSinglyLinkedList.AssemblyInfoInputs.cache
+E:\Problem Solving\ImplementSinglyLinkedList\ImplementSinglyLinkedList\obj\Debug\netcoreapp3.1\ImplementSinglyLinkedList.AssemblyInfo.cs
+E:\Problem Solving\ImplementSinglyLinkedList\ImplementSinglyLinkedList\obj\Debug\netcoreapp3.1\ImplementSinglyLinkedList.csproj.CoreCompileInputs.cache
+E:\Problem Solving\ImplementSinglyLinkedList\ImplementSinglyLinkedList\obj\Debug\netcoreapp3.1\ImplementSinglyLinkedList.dll
+E:\Problem Solving\ImplementSinglyLinkedList\ImplementSinglyLinkedList\obj\Debug\netcoreapp3.1\ImplementSinglyLinkedList.pdb
+E:\Problem Solving\ImplementSinglyLinkedList\ImplementSinglyLinkedList\obj\Debug\netcoreapp3.1\ImplementSinglyLinkedList.genruntimeconfig.cache
