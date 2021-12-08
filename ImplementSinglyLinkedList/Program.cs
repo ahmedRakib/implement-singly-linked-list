@@ -9,13 +9,15 @@ namespace ImplementSinglyLinkedList
             Console.WriteLine("Hello World!");
             var linkedList = new LinkedList();
             linkedList.InsertAtTheBeginning(1);
+            linkedList.InsertAtTheBeginning(0);
             //linkedList.InsertAtTheEnd(5);
             //linkedList.InsertSorted(3);
             linkedList.InsertSorted(2);
             linkedList.InsertSorted(5);
+
             linkedList.InsertAtTheEnd(6);
-            //linkedList.InsertSorted(4);
-            linkedList.InsertSorted(7);
+
+            linkedList.InsertSorted(4);
 
             linkedList.DeleteANode(1);
 
@@ -47,17 +49,27 @@ namespace ImplementSinglyLinkedList
     {
         public Node Head { get; set; }
 
-        //public LinkedList()
-        //{
-        //    Head = new Node(0);
-        //    Head.Next = null;
-        //}
-
         public void InsertAtTheBeginning(int data) 
         {
             var newNode = new Node(data);
-            newNode.Next = Head;
-            Head = newNode;
+
+            if (Head == null)
+            {
+                Head = newNode;
+            }
+            else
+            {
+                if(Head.Data > newNode.Data)
+                {
+                    newNode.Next = Head;
+                    Head = newNode;
+                }
+                else
+                {
+                    Console.WriteLine("List contains smaller value. Cannot be inserted at the beginning");
+                }
+              
+            }
         }
 
         public void InsertAtTheEnd(int data)
@@ -104,32 +116,31 @@ namespace ImplementSinglyLinkedList
             var newNode = new Node(data);
             var current = Head;
 
-            if(current == null)
+            if(current == null || current.Data > newNode.Data)
             {
-                newNode = current;
+                newNode.Next = current;
+                Head = newNode;
             }
-            else if(current.Data > newNode.Data)
+            else
             {
-                newNode.Next = current; 
-                Head = current;
-            }
-
-            while(current != null)
-            {
-                if(current.Next == null)
+                while (current != null)
                 {
-                    current.Next = newNode;
-                    break;
-                }
-                if(current.Next.Data > newNode.Data)
-                {
-                    newNode.Next = current.Next;
-                    current.Next = newNode;
-                    break;
-                }
-                current = current.Next;
-            }
+                    if (current.Next == null)
+                    {
+                        current.Next = newNode;
+                        break;
+                    }
+                    else if (current.Next.Data > newNode.Data)
+                    {
+                        newNode.Next = current.Next;
+                        current.Next = newNode;
+                        break;
+                    }
 
+                    current = current.Next;
+                }
+
+            }
         }
 
         public void DeleteANode(int data) 
@@ -147,17 +158,19 @@ namespace ImplementSinglyLinkedList
                 }
                   
             }
-
-            while(current.Next != null)
+            else
             {
-                if(current.Next.Data == data)
+                while (current.Next != null)
                 {
-                    var temp = current.Next.Next;
-                    current.Next = temp;
-                    break;
-                }
+                    if (current.Next.Data == data)
+                    {
+                        var temp = current.Next.Next;
+                        current.Next = temp;
+                        break;
+                    }
 
-                current = current.Next;
+                    current = current.Next;
+                }
             }
         }
 
